@@ -29,7 +29,7 @@ pipeline{
             // }
             steps{
                 echo params.executeTests
-                sh 'node --version'
+                // sh 'node --version'
             }
         }
         stage("deploy"){
