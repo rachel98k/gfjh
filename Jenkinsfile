@@ -28,7 +28,7 @@ pipeline{
             //     }
             // }
             steps{
-                echo params.executeTests
+                // echo params.executeTests
                 // sh 'node --version'
             }
         }
