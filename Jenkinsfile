@@ -26,7 +26,7 @@ pipeline{
             //     }
             // }
             steps{
-                echo params.executeTests
+                ech params.executeTests
             }
         }
         stage("deploy"){
