@@ -1,7 +1,7 @@
 pipeline{
 
     agent {
-        docker { image 'node:18.16.0-alpine' }
+        docker any
     }
     // parameters{
     //     choice(name: 'VERSION', choices:['1.1.0','1.2.0','1.3.0'],description:'')
