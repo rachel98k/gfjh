@@ -39,5 +39,8 @@ pipeline{
         always{
             echo "alw"
         }
+        failure{
+            echo "ffff"
+        }
     }
 }
